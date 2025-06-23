@@ -53,11 +53,11 @@ Add to your Claude Desktop `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "claude-brain": {
+    "brain": {
       "command": "node",
-      "args": ["/path/to/claude-brain/src/index.js"],
+      "args": ["/path/to/ai-brain/src/index.js"],
       "env": {
-        "CLAUDE_BRAIN_MEMORY_PATH": "/path/to/your/memory.jsonl"
+        "AI_BRAIN_MEMORY_PATH": "/path/to/your/memory.jsonl"
       }
     }
   }
