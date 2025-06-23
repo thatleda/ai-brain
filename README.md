@@ -36,12 +36,12 @@ A revolutionary memory system that transforms any AI model into a considerate AI
 ### Installation
 ```bash
 # Clone and set up
-git clone <repository-url> claude-brain
-cd claude-brain
+git clone <repository-url> ai-brain
+cd ai-brain
 npm install
 
 # Set custom memory location (optional)
-export CLAUDE_BRAIN_MEMORY_PATH="/path/to/your/memory.jsonl"
+export AI_BRAIN_MEMORY_PATH="/path/to/your/memory.jsonl"
 
 # Start the server
 npm start
@@ -65,16 +65,6 @@ Add to your Claude Desktop `claude_desktop_config.json`:
 ```
 
 ## 🎭 Bootstrap Prompts for Different Team Members
-
-### For Vision-Impaired Developers
-```
-I'm working with a vision-impaired developer who uses screen readers. Please:
-1. Always provide detailed, step-by-step descriptions
-2. Avoid rapid-fire responses or multiple windows
-3. Remember that I use ZSH (not bash) for all commands
-4. Keep responses at a comfortable, slower pace
-5. Never assume I can see visual elements
-```
 
 ### For ADHD Developers
 ```
@@ -172,10 +162,10 @@ I'm a consultant working with multiple clients. Please:
 ### Environment Variables
 ```bash
 # Memory file location
-CLAUDE_BRAIN_MEMORY_PATH="/path/to/memory.jsonl"
+AI_BRAIN_MEMORY_PATH="/path/to/memory.jsonl"
 
 # Enable debug logging
-DEBUG=claude-brain:*
+DEBUG=ai-brain:*
 ```
 
 ### Memory File Format
@@ -185,20 +175,6 @@ The system uses JSON Lines format for efficient storage:
 {"type": "entity", "name": "User_Profile", "emotionalMetadata": {...}}
 {"type": "relation", "from": "User", "to": "Preference", "relationType": "has"}
 ```
-
-## 🎯 DIU Team Benefits
-
-### For Your Vision-Impaired Teammate
-- **No more rapid-fire windows**: Thoughtful, paced responses
-- **Permanent ZSH memory**: Never has to repeat shell preference
-- **Screen reader friendly**: Detailed descriptions, no visual assumptions
-- **Trust building**: Becomes more reliable and helpful over time
-
-### For Your Entire Team
-- **Individual adaptation**: Each person gets personalized AI behavior
-- **Accessibility by default**: Considers different needs and working styles
-- **Preference permanence**: Important settings never get lost
-- **Trust metrics**: See how well your AI assistant is learning
 
 ## 🔄 Upgrade from Basic Memory Server
 
