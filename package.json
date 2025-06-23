@@ -1,0 +1,35 @@
+{
+  "name": "ai-brain",
+  "version": "1.0.0",
+  "description": "Considerate AI Teammate - Enhanced MCP Memory Server with Emotional Intelligence",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "claude-brain": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/test-memory.js"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "ai",
+    "claude",
+    "emotional-intelligence",
+    "accessibility",
+    "team-collaboration"
+  ],
+  "author": "Leda & Matt",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
